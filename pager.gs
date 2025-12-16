@@ -1259,7 +1259,6 @@ function syncPagerDutyFuture(sheet, dryRun = true, test = true) {
  * Get schedule entries for a given schedule and time range
  */
 function getFinalScheduleEntries(scheduleId, syncStartTime, syncEndTime) {
-  const PD_TOKEN = "u+NuJGtkb_7xAz2xB6xQ";
   const limit = 100;
   let offset = 0;
   let allEntries = [];
