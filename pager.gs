@@ -1319,7 +1319,6 @@ function getFinalScheduleEntries(scheduleId, syncStartTime, syncEndTime) {
  * Get final_schedule snapshot
  */
 function getFinalScheduleSnapshot(scheduleId) {
-  const PD_TOKEN = "u+NuJGtkb_7xAz2xB6xQ";
   const scheduleUrl = `https://api.pagerduty.com/schedules/${scheduleId}`;
 
   const response = UrlFetchApp.fetch(scheduleUrl, {
